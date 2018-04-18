@@ -1,0 +1,65 @@
+@CHARSET "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+.privacy_content{
+    width: 100%;
+    background-color: #f6f6f6;
+}
+
+
+.privacy_box{
+    width:80%;
+    margin:0 auto;  
+}
+
+.pr_content{
+    text-indent: 2em;
+    line-height:32px;
+    font-size:16px;
+}
+.pr_T{  
+    font-size: 36px;
+    color: #2babe8;
+    text-align: center;
+    font-family: "Microsoft YaHei";
+    margin-bottom: 20px;
+}
+.pr_img_login{
+display: block;
+margin: 20px auto;
+    
+}
+.pr_img_use{
+    display: block;
+    margin: 0 auto;
+}
+.pr_img_topTips{
+    margin-top: 20px;
+    
+}
+.pr_title{
+    text-indent: 2em;
+    color: #2babe8;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+.pro_title{
+    color: #2babe8;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top:50px;
+}
+.pr_com{
+    text-align: right;
+}
+.footer{
+    height: 24px;
+    padding: 60px 0px;
+    font-size: 12px;
+    text-align: center;
+    color: #999999;
+}
+

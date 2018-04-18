@@ -1,0 +1,209 @@
+@CHARSET "UTF-8";
+@CHARSET "UTF-8";
+/* 去除浏览器边距 */
+*{  
+    margin:0;  
+    padding:0;  
+} 
+/*设置图片边框为0  */  
+img {  
+    border:0  
+}  
+/* 设置当鼠标放在按钮上的形状 */
+button, input[type="button"], input[type="reset"], input[type="submit"] {  
+    cursor:pointer;  
+    -webkit-appearance:button  
+}  
+/* 设置超链接的颜色等 */  
+a {  
+    color:#7b7b7b;  
+    text-decoration:none;  
+    cursor:pointer  
+}  
+a:hover {  
+    color:#000;
+    text-decoration:underline;
+}  
+.close:hover {  
+    text-decoration:none;
+    color:#000; 
+}  
+ 
+  
+/* 设置body字体大小，样式，颜色 */
+body{  
+    font-size:12px;  
+    font-family:microsoft yahei;  
+    color: #444;  
+}  
+
+
+/*设置登陆窗相关CSS样式*/ 
+
+/* 设置登陆窗口  */
+.popup-login {  
+    z-index:9999;  /* 登陆窗口最前显示 */
+    position:relative; 
+    margin:-500px auto;
+    border-radius:2px; 
+    width:440px;  
+    height:376px;  
+    background-color:#fff;  
+    display:none; /* 隐藏登陆窗口 */
+    box-shadow: 0 0 10px #666;  
+} 
+
+
+.popup_hd_tl{
+	width: 140px;
+    color: #333;
+    margin: 19px 0 0 34px;
+    padding: 0;
+    font: 22px/22px Microsoft Yahei;
+}
+.popup_login_notice{
+	margin-top:4px;
+	margin-left:47px	
+}
+.popup_u{
+	display:inline-block;
+	z-index:9999;
+	color:#d81e06;
+	display:none;
+	
+}
+.popup_p{
+	display:inline-block;
+	z-index:9999;
+	color:#d81e06;
+	display:none;
+}
+.popup_err{
+	display:inline-block;
+	z-index:9999;
+	color:#d81e06;
+	display:none;
+} 
+.popup_login_notice{
+	display:inline-block;
+	z-index:9999;
+	color:#d81e06;
+	display:none;
+}
+ .popup_text_area{
+    margin-top:20px;
+    margin-bottom:11px;
+    margin-left:13px;
+ }
+ .popup_text_area1{
+    margin-bottom:11px;
+    margin-left:13px;
+ }
+ .popup_txt_box {
+    width:325px;
+    margin-left:34px;
+    height: 22px;
+    border: 1px solid #ccc;
+    background: #f6f6f6;
+    padding: 7px 10px;
+} 
+ .popup_txt_tl{
+	float:left;
+	height:22px;
+	line-height:22px;
+	verticle-align:middle;
+	color:#7b7b7b;
+}  
+.popup_txt_ipt{
+	outline:none;
+	 border:0; 
+	height:22px;
+	line-height:22px;
+	font-size:14px;
+	width:285px;
+	padding:0;
+	background:transparent;
+	color:#a1a1a1;
+} 
+.popup_pwd_ipt{
+	outline:none;/*去除input边框 */
+	border:0;   /* 去除边框 */
+	height:22px;
+	line-height:22px;
+	font-size:14px;
+	width:230px;
+	padding:0;
+	background:transparent;
+	color:#a1a1a1;
+} 
+.popup_tool_lt{
+	display:inline-block;
+	margin-left:47px;
+	
+}
+.popup_tool_rt{
+	display:inline-block;
+	margin-left:207px;
+}
+.popup_thirdpart{
+   display:inline-block;
+   margin-left:47px;
+   height:22px;
+   margin-top:30px;
+	
+}
+
+.popup_thirdpart_qq{
+	display: inline-block;
+	border-radius:2px;
+	vertical-align: middle;
+	margin-left:3px;
+}
+.popup-close {  
+    padding:12px;  
+    position: relative;  
+} 
+.popup_login_btn{
+	display:block;
+	margin-left:47px;
+	width:347px;
+	border-radius:4px;
+	background-color: #2299ed;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+	border:0;
+	margin-top:36px;	
+}
+.popup_user_info{
+   display:inline-block;
+   margin-left:124px;
+	
+} 
+.popup-close .close {  
+    float:right;  
+    color:#999;  
+    padding:5px;  
+    margin:-2px -5px -5px;  
+    font:bold 14px/14px simsun;  
+    text-shadow:0 1px 0 #ddd  
+}  
+ 
+.popup_thirdpart a{
+	 text-decoration:underline;
+	
+}
+  
+/* 背景虚化界面设置 */
+.popup-mask {  
+    z-index: 9998;  
+    position:fixed;  
+    top:0;  
+    left:0;  
+    width:100%;  
+    height:100%;  
+    background:#000;  
+    opacity:0.2;  
+    display:none  
+}  
+
